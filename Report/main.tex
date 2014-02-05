@@ -1,0 +1,97 @@
+\documentclass[12pt,a4paper]{report}
+
+%%% User pakcages
+
+\usepackage[font=scriptsize]{caption} %small caption text
+\usepackage{wrapfig}
+\usepackage{afterpage}
+\usepackage{parskip} % Disable US-type paragraph
+\usepackage{amsfonts} % Math 
+\usepackage{palatino} % Vektor fonts
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc} %%\usepackage[utf8x]{inputenc} 
+\usepackage{float}
+\usepackage[danish]{babel} % Danish letters 
+\usepackage{booktabs} % Nice tabels
+\usepackage[pdftex]{graphicx} % Include graphics 
+\usepackage{fancyhdr} % header & footer
+\usepackage[hyphens]{url}
+\usepackage[hidelinks, breaklinks]{hyperref} % Hyper link
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xfrac}
+\usepackage{listings} % Insert code
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
+
+\usepackage[backend=bibtex]{biblatex}
+\bibliography{Kilder/kilder.bib}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} % Page margin
+\usepackage{tabularx} % Table
+\usepackage{marginnote}
+
+\titleformat{\chapter}{\normalfont\huge\bfseries}{ \thechapter.}{20pt}{\huge}
+\setcounter{section}{0}
+\pagestyle{fancy}
+\fancypagestyle{arabic}
+{
+    \fancyhf{}
+    \setlength{\headheight}{15pt}
+}
+
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\fancypagestyle{chp}{
+  \fancyhf{}
+  \rhead{\rightmark}%\colorbox{black}{\color{white}{\rightmark}}}
+  \cfoot{\thepage}
+}
+
+\pagestyle{chp}
+
+\title{Ground Handling}
+\author{
+    \includegraphics[width=14cm]{grafik/index} \\
+        Kasper Ø. Helsted, Jens H. Stærmose, Christoffer C. Christensen, Christian H. Nielsen\\
+        Kasper F. Christensen, Anders L. Matthiassen \& Josias Laugesen\\
+}
+\date{21 - 05 - 2014}
+
+\definecolor{codecomment}{HTML}{383838}
+
+\lstset{language=C,
+    basicstyle=\ttfamily\scriptsize,
+    keywordstyle=\color{Blue}\ttfamily,
+    otherkeywords={WIDTH},
+    keywords=[2]{__shared__},
+    keywordstyle=[2]\color{orange}\ttfamily,
+    stringstyle=\color{red}\ttfamily,
+    commentstyle=\color{codecomment}\ttfamily,
+    breaklines=true,
+    numbers=left,
+}
+
+\begin{document}
+    \maketitle
+    \afterpage{\null\newpage}
+    \pagenumbering{gobble}
+    \clearpage  
+    %Titlepage 
+    \input{Titlepage/titelblad}
+    \afterpage{\null\newpage}
+    \pagenumbering{gobble}
+    \clearpage  
+    \pagenumbering{roman}
+    \input{Indledning/Forord}
+    \renewcommand*\contentsname{Indholdsfortegnelse}
+    \tableofcontents
+    \thispagestyle{empty}
+    \pagenumbering{arabic}
+    \clearpage
+    \setcounter{page}{1}
+	
+    \part{Produktudvikling}
+    
+    \printbibliography
+
+\end{document}

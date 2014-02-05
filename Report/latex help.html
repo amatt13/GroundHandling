@@ -1,0 +1,36 @@
+<style>
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+body {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    line-height: 25px;
+}
+</style>
+
+<h2>Latex Kommandoer</h2>
+
+<ul>
+    <li>Sektion: \section{ !!TITEL!! }</li>
+    <li>Subsektion: \subsection{ !!TITEL!! }</li>
+    <li>Subsubsektion: \subsubsection{ !!TITEL!! }</li>
+    <li>Label: \label{ !!LABLE TITEL!! }</li>
+    <li>Reference: \ref{ !!LABLE TITEL, KAN OGS&Aring; V&AElig;RE BILLEDE!! }</li>
+    <li>Inds&aelig;ttelse af kilde: \cite{ !!KILDENAVN!! }</li>
+    <li>Kilde:<br/>
+        @misc{!!KILDENAVN!!,<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;title = {!!KILDETITEL!!},<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;url = {!!KILDEURL!!},<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;note = "Bes&oslash;gt !!BES&Oslash;GT M&Aring;NED!! 2014"<br/>
+        },
+    </li>
+    <li>Billede: !billederne ligges i mappen Grafik<br/>
+        \begin{figure}[here]<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;\centering<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\includegraphics[width=0.7\textwidth]{Grafik/!!BILLEDE NAVN UDEN EXTENSION!!}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\caption{!!BESKRIVELSE AF BILLEDE!!}<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;\label{!!LABEL TIL BILLEDE!!}<br/>
+        \end{figure}
+    </li>
+</ul>
+
