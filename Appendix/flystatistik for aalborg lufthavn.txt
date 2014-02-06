@@ -1,2 +1,12 @@
-Departures: http://db.flightradar24.com/_external/dataFeedAirport.php?iata=AAL&type=dep&min_timestamp=1391688670&callback=cbFlights
 Arrivals:   http://db.flightradar24.com/_external/dataFeedAirport.php?iata=AAL&type=arr&min_timestamp=1391688670&callback=cbFlights
+Departures: http://db.flightradar24.com/_external/dataFeedAirport.php?iata=AAL&type=dep&min_timestamp=1391688670&callback=cbFlights
+
+1 års statistik af aalborg lufthavn:
+BOEING 737-800          = 2919
+AIRBUS A-320            = 2544
+FAIRCHILD DORNIER 328   = 1080
+EMBRAER ERJ 190-100     = 732
+AIRBUS A-321            = 725
+Fokker 70               = 723
+SAAB 2000               = 370
+
