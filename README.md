@@ -1,4 +1,0 @@
-GroundHandling
-==============
-
-Software project
