@@ -1,0 +1,2 @@
+Departures: http://db.flightradar24.com/_external/dataFeedAirport.php?iata=AAL&type=dep&min_timestamp=1391688670&callback=cbFlights
+Arrivals:   http://db.flightradar24.com/_external/dataFeedAirport.php?iata=AAL&type=arr&min_timestamp=1391688670&callback=cbFlights
