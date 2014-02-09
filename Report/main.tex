@@ -12,7 +12,7 @@
 \usepackage[T1]{fontenc} 
 \usepackage[utf8]{inputenc} %%\usepackage[utf8x]{inputenc} 
 \usepackage{float}
-\usepackage[danish]{babel} % Danish letters 
+%\usepackage[danish]{babel} % Danish letters 
 \usepackage{booktabs} % Nice tabels
 \usepackage[pdftex]{graphicx} % Include graphics 
 \usepackage{fancyhdr} % header & footer
@@ -83,14 +83,14 @@
     \clearpage  
     \pagenumbering{roman}
     \input{Indledning/Forord}
-    \renewcommand*\contentsname{Indholdsfortegnelse}
+    %\renewcommand*\contentsname{Indholdsfortegnelse}
     \tableofcontents
     \thispagestyle{empty}
     \pagenumbering{arabic}
     \clearpage
     \setcounter{page}{1}
 	
-    \part{Problemanalyse}
+    \part{Problem Analysis}
 
     \include{Analyse/EmergencyPlanning}
     \include{Analyse/PriserOgServices}
@@ -98,7 +98,7 @@
     \include{Analyse/ProblemStatemen}
     \include{Analyse/Flyvninger}
 
-    \part{Produktudvikling}
+    \part{Product Development}
     
     \printbibliography
 
