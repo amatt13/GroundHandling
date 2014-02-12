@@ -1,0 +1,6 @@
+C:\Users\Helstedxd\Documents\GitHub\GroundHandling\Source\Forlæsning1\Forlæsning1\bin\Debug\Forlæsning1.exe.config
+C:\Users\Helstedxd\Documents\GitHub\GroundHandling\Source\Forlæsning1\Forlæsning1\bin\Debug\Forlæsning1.exe
+C:\Users\Helstedxd\Documents\GitHub\GroundHandling\Source\Forlæsning1\Forlæsning1\bin\Debug\Forlæsning1.pdb
+C:\Users\Helstedxd\Documents\GitHub\GroundHandling\Source\Forlæsning1\Forlæsning1\obj\Debug\Forlæsning1.csprojResolveAssemblyReference.cache
+C:\Users\Helstedxd\Documents\GitHub\GroundHandling\Source\Forlæsning1\Forlæsning1\obj\Debug\Forlæsning1.exe
+C:\Users\Helstedxd\Documents\GitHub\GroundHandling\Source\Forlæsning1\Forlæsning1\obj\Debug\Forlæsning1.pdb
