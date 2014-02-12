@@ -14,7 +14,7 @@
 \usepackage{float}
 %\usepackage[danish]{babel} % Danish letters 
 \usepackage{booktabs} % Nice tabels
-\usepackage[pdftex]{graphicx} % input graphics 
+\usepackage[pdftex]{graphicx} % Include graphics 
 \usepackage{fancyhdr} % header & footer
 \usepackage[hyphens]{url}
 \usepackage[hidelinks, breaklinks]{hyperref} % Hyper link
@@ -51,7 +51,7 @@
 
 \title{Ground Handling}
 \author{
-    \inputgraphics[width=14cm]{grafik/index} \\
+    \includegraphics[width=14cm]{grafik/index} \\
         Kasper Ø. Helsted, Jens H. Stærmose, Christoffer C. Christensen, Christian H. Nielsen\\
         Kasper F. Christensen, Anders L. Matthiassen \& Josias Laugesen\\
 }
@@ -89,16 +89,14 @@
     \pagenumbering{arabic}
     \clearpage
     \setcounter{page}{1}
-	
+    
     \part{Problem Analysis}
-    \chapter{Problem Analysis}
 
-    \input{Analyse/EmergencyPlanning}
-    \input{Analyse/PriserOgServices}
-    \input{Analyse/Stakeholders}
-		\input{Analyse/Supervisors}
-    \input{Analyse/ProblemStatemen}
-    \input{Analyse/Flyvninger}
+    \include{Analyse/EmergencyPlanning}
+    \include{Analyse/PriserOgServices}
+    \include{Analyse/Stakeholders}
+    \include{Analyse/ProblemStatemen}
+    \include{Analyse/Flyvninger}
 
     \part{Product Development}
     
