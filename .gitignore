@@ -28,6 +28,7 @@ build/
 *.meta
 *.obj
 *.pch
+*.pdf
 *.pdb
 *.pgc
 *.pgd
