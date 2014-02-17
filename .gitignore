@@ -46,6 +46,9 @@ main.pdf
 *.pidb
 *.log
 *.scc
+*.run.xml
+*.synctex.gz
+*.toc
 
 # Visual C++ cache files
 ipch/
