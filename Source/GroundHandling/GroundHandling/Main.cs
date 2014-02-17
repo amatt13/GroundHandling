@@ -7,12 +7,15 @@ namespace GroundHandling
 		public static void Main (string[] args)
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			Console.WriteLine ("Hello Plane! \n");
             Console.WriteLine("We're flying....");
             Console.WriteLine("We're dieing....");
             Console.ReadLine();
         }
 =======
+=======
+>>>>>>> aebcd7d0ecc7c189c8860fba649c5b286613c123
             Console.WriteLine("And we say Ooohh, Ooohhh");
             Console.WriteLine("OOh, We're flying....");
 		}
@@ -31,4 +34,8 @@ namespace GroundHandling
 
 
 
+<<<<<<< HEAD
 //Christian lugter af sovs
+=======
+//Christian lugter af sovs
+>>>>>>> aebcd7d0ecc7c189c8860fba649c5b286613c123
