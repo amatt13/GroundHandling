@@ -7,7 +7,9 @@ namespace GroundHandling
 		public static void Main (string[] args)
 		{
 			Console.WriteLine ("Hello Plane! \n");
-			Console.WriteLine ("We're flying....");
-		}
+            Console.WriteLine("We're flying....");
+            Console.WriteLine("We're dieing....");
+            Console.ReadLine();
+        }
 	}
 }
