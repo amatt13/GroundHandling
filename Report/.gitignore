@@ -1,0 +1,17 @@
+# Files to exclude #
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.bib
+*.aux
+*.bbl
+*.blg
+*.fdb
+*.fdb_latexmk
+*.log
+*.out
+main.pdf

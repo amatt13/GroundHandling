@@ -12,7 +12,7 @@
 \usepackage[T1]{fontenc} 
 \usepackage[utf8]{inputenc} %%\usepackage[utf8x]{inputenc} 
 \usepackage{float}
-\usepackage[danish]{babel} % Danish letters 
+%\usepackage[danish]{babel} % Danish letters 
 \usepackage{booktabs} % Nice tabels
 \usepackage[pdftex]{graphicx} % Include graphics 
 \usepackage{fancyhdr} % header & footer
@@ -51,7 +51,7 @@
 
 \title{Ground Handling}
 \author{
-    \includegraphics[width=14cm]{grafik/index} \\
+    \includegraphics[width=14cm]{Grafik/index.jpg} \\
         Kasper Ø. Helsted, Jens H. Stærmose, Christoffer C. Christensen, Christian H. Nielsen\\
         Kasper F. Christensen, Anders L. Matthiassen \& Josias Laugesen\\
 }
@@ -83,14 +83,25 @@
     \clearpage  
     \pagenumbering{roman}
     \input{Indledning/Forord}
-    \renewcommand*\contentsname{Indholdsfortegnelse}
+    %\renewcommand*\contentsname{Indholdsfortegnelse}
     \tableofcontents
     \thispagestyle{empty}
     \pagenumbering{arabic}
     \clearpage
     \setcounter{page}{1}
-	
-    \part{Produktudvikling}
+    
+    \part{Problem Analysis}
+    \chapter{Problem Analysis}
+		\include{Analyse/HejMor}
+    \include{Analyse/EmergencyPlanning}
+    \include{Analyse/PriserOgServices}
+    \include{Analyse/Stakeholders}
+    \include{Analyse/AirplaneMechanic}
+    \include{Analyse/ProblemStatemen}
+    \include{Analyse/Flyvninger}
+		\include{Analyse/Passengers}
+
+    \part{Product Development}
     
     \printbibliography
 
