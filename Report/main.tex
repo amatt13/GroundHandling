@@ -89,19 +89,34 @@
     \pagenumbering{arabic}
     \clearpage
     \setcounter{page}{1}
-    
+    \input{Indledning/indledning}
     \part{Problem Analysis}
     \chapter{Problem Analysis}
-		\include{Analyse/HejMor}
-    \include{Analyse/EmergencyPlanning}
-    \include{Analyse/PriserOgServices}
+		\section{Stakeholders}
+		\include{Analyse/Stakeholders/GHCompanies}
+		\include{Analyse/Stakeholders/Freight}
+		\include{Analyse/Stakeholders/Mechanics}
+		\include{Analyse/Stakeholders/CabinCrew}
+		\include{Analyse/Stakeholders/Supervisors}
+		\include{Analyse/Stakeholders/Cleaning}
+		\include{Analyse/Stakeholders/Catering}
+		\include{Analyse/Stakeholders/Passengers}
+
+		\section{Airports}
+		\include{Analyse/Airports/PricesAndServices}
+    \include{Analyse/Airports/EmergencyPlanning}
+		\include{Analyse/Airports/Airtraffic}
+		\section{Planning}
+		\include{Analyse/Planning/AvoidPlanning}
+		\include{Analyse/Planning/BadPlanCons}
+		\include{Analyse/Planning/Stress}
+		\include{Analyse/Planning/Motivation}
+		
+		\include{Analyse/ProblemStatement/ProblemStatement}
+		
+		\section{TEMP}
     \include{Analyse/Stakeholders}
-    \include{Analyse/AirplaneMechanic}
-		\include{Analyse/GHCompanies}
-		\include{Analyse/BadPlanCons}
-    \include{Analyse/ProblemStatemen}
-    \include{Analyse/Flyvninger}
-		\include{Analyse/Passengers}
+		\include{Analyse/Algorithm}
 
     \part{Product Development}
     
