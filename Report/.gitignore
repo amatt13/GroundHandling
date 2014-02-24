@@ -14,4 +14,4 @@
 *.fdb_latexmk
 *.log
 *.out
-*.pdf
+main.pdf

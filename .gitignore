@@ -28,7 +28,7 @@ build/
 *.meta
 *.obj
 *.pch
-*.pdf
+main.pdf
 *.pdb
 *.pgc
 *.pgd
@@ -46,6 +46,9 @@ build/
 *.pidb
 *.log
 *.scc
+*.run.xml
+*.synctex.gz
+*.toc
 
 # Visual C++ cache files
 ipch/

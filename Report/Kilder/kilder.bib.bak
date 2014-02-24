@@ -1,0 +1,21 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: Cp1252
+
+@ELECTRONIC{test_test,
+  author = {Henrik Larsen},
+  month = {04},
+  year = {2013},
+  title = {SÊt en kile i stress-hjulet},
+  language = {Danish},
+  organization = {VÊksthus for ledelse},
+  url = {http://www.lederweb.dk/Personale/Arbejdsmiljo/Artikel/100628/Trad-ud-af-stresshjulet},
+  owner = {AndersBÊrbar},
+  timestamp = {2014.02.13}
+}
+
+@MISC{radet_for_sikker_trafik_vi_2013,
+  title = {Vi tager bilen, n√•r vi holder ferie i Danmark},
+  note = {Bes√∏gt November 2013},
+  url = {http://www.dst.dk/da/presse/Pressemeddelelser/2010/2010-07-14-vi-tager-bilen.aspx}
+}
+
