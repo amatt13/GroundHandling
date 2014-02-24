@@ -1,19 +1,6 @@
 % This file was created with JabRef 2.9.2.
 % Encoding: Cp1252
 
-@ELECTRONIC{Algo_lobe,
-  author = {Marlyn E. Kyle and Mithra M. K. V. Sankrithi},
-  month = {November},
-  year = {2000},
-  title = {Aircraft lower lobe sleeping compartment},
-  language = {English and Danish},
-  organization = {The Boeing Company},
-  note = {US6152400 A},
-  url = {https://www.google.com/patents/US6152400},
-  owner = {AndersBærbar},
-  timestamp = {2014.02.24}
-}
-
 @ELECTRONIC{test_test,
   author = {Henrik Larsen},
   month = {04},
