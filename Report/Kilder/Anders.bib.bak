@@ -1,6 +1,38 @@
 % This file was created with JabRef 2.9.2.
 % Encoding: Cp1252
 
+@ELECTRONIC{cate_SASIndri,
+  author = {SAS staff},
+  title = {Rejser i Danmark},
+  language = {Danish},
+  organization = {SAS},
+  url = {http://www.sas.dk/alt-om-rejsen/ombord/indenrigs/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{cate_SASscanda,
+  author = {SAS staff},
+  title = {Rejser i Skandinavien og Europa},
+  language = {danish},
+  organization = {SAS},
+  url = {http://www.sas.dk/alt-om-rejsen/ombord/rejser-i-skandinavien/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{cate_SASGourmet,
+  author = {Stand By staff},
+  month = {6},
+  year = {2011},
+  title = {Gate Gourmet forlænger med SAS},
+  language = {Danish},
+  organization = {Stand By},
+  url = {http://www.standby.dk/gate-gourmet-forl-nger-med-sas/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
 @ELECTRONIC{cate_pilotfood2,
   author = {Chris Cooke},
   month = {June},
