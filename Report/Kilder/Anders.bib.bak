@@ -1,6 +1,30 @@
 % This file was created with JabRef 2.9.2.
 % Encoding: Cp1252
 
+@ELECTRONIC{cate_pilotfood2,
+  author = {Chris Cooke},
+  month = {June},
+  year = {2011},
+  title = {Napping Pilots: A Good Thing},
+  language = {English},
+  organization = {Executive Travel},
+  url = {http://www.executivetravelmagazine.com/articles/napping-pilots-a-good-thing},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{cate_pilotfood1,
+  author = {Jesse},
+  month = {JANUARY},
+  year = {2012},
+  title = {THE DIETS OF PILOTS},
+  language = {English},
+  organization = {AIRTRANSPARENCY},
+  url = {http://www.airtransparency.com/airtransparency/2012/1/19/the-diets-of-pilots.html},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
 @ELECTRONIC{Algo_lobe,
   author = {Marlyn E. Kyle and Mithra M. K. V. Sankrithi},
   month = {November},
