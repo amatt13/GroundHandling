@@ -6,12 +6,13 @@ namespace GroundHandling
 	{
 		public Task ()
 		{
-			string _name;
-			int _timeReq;
-			int _teamId;
-			int _priority;
-			int _skillReq;
-			bool _done;
+            public string type { get; set; }
+            public int timeReq { get; set; }
+            public Skill skillReq { get; set; }
+            public int priority { get; set; }
+            public bool done { get; set; }
+            public Team team { get; set; }
+            public Flight flight { get; set; }
 		}
 
 		public int Delay(){

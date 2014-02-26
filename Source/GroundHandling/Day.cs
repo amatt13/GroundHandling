@@ -6,9 +6,9 @@ namespace GroundHandling
 	{
 		public Day ()
 		{
-			list<Plane> _planes = new list<Plane>();
-			list<Team> _teams = new list<Team>();
-			int _id;
+            public List<Team> teams { get; set; }
+            public List<Flight> flights { get; set; }
+            public int day { get; set; }
 		}
 
 		public int AddPlane(){}

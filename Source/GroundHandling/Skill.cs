@@ -6,9 +6,9 @@ namespace GroundHandling
 	{
 		public Skill ()
 		{
-			bool _cleaning;
-			bool _fueling;
-			bool _catering;
+            bool cleaning { get; set; }
+            bool fueling { get; set; }
+            bool luggage { get; set; }
 		}
 	}
 }
