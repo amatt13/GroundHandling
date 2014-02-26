@@ -36,7 +36,6 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Plane.cs" />
     <Compile Include="Task.cs" />
     <Compile Include="Team.cs" />
     <Compile Include="Day.cs" />

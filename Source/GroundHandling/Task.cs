@@ -8,7 +8,7 @@ namespace GroundHandling
 		{
             public string type { get; set; }
             public int timeReq { get; set; }
-            public Skill skillReq { get; set; }
+            public string skillReq { get; set; }
             public int priority { get; set; }
             public bool done { get; set; }
             public Team team { get; set; }

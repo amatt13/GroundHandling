@@ -8,16 +8,16 @@ namespace GroundHandling
 		{
             public List<Team> teams { get; set; }
             public List<Flight> flights { get; set; }
-            public int day { get; set; }
+            public DateTime day { get; set; }
 		}
 
-		public int AddPlane(){}
+		public Flight AddFlight(){}
 
-		public int RemovePlane(){}
+		public Flight RemoveFlight(){}
 
-		public int AddTeam(){}
+		public Team AddTeam(){}
 
-		public int RemoveTeam(){}
+		public Team RemoveTeam(){}
 
 
 	}

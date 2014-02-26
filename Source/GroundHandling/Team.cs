@@ -10,6 +10,7 @@ namespace GroundHandling
         public int timeToReady { get; set; }
         public List<Task> tasks { get; set; }
         public int flightID { get; set; }
+		public Skill skills;
 
         public Team()
         {
