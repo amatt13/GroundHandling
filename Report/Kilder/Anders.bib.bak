@@ -33,6 +33,16 @@
   timestamp = {2014.02.25}
 }
 
+@ELECTRONIC{AvoidP_TenStep,
+  author = {TenStep staff},
+  title = {Contact TenStep},
+  language = {English},
+  organization = {TenStep},
+  url = {http://www.tenstep.com/open/miscpages/90.11ContactTenStep.html},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.26}
+}
+
 @ELECTRONIC{cate_pilotfood2,
   author = {Chris Cooke},
   month = {June},
@@ -68,6 +78,18 @@
   url = {https://www.google.com/patents/US6152400},
   owner = {AndersBærbar},
   timestamp = {2014.02.24}
+}
+
+@ELECTRONIC{AvoidP_PoorP,
+  author = {Tom Mochal},
+  month = {March},
+  year = {2003},
+  title = {Poor planning is project management mistake number one},
+  language = {English},
+  organization = {techrepublic},
+  url = {http://www.techrepublic.com/article/poor-planning-is-project-management-mistake-number-one/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.26}
 }
 
 @BOOK{cate_BookSection,
