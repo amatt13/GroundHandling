@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using GroundHandlingClasses;
 
 namespace GroundHandling
 {
@@ -6,10 +8,11 @@ namespace GroundHandling
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello Plane! \n");
-            Console.WriteLine("We're flying....");
-            Console.WriteLine("We're dieing....");
-            Console.ReadLine();
+			Day day = new Day();
         }
+
+		public int Update ()
+		{
+		}
 	}
 }

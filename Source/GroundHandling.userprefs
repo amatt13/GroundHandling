@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GroundHandling/Skill.cs">
+    <Files>
+      <File FileName="GroundHandling/Main.cs" Line="9" Column="24" />
+      <File FileName="GroundHandling/Plane.cs" Line="13" Column="29" />
+      <File FileName="GroundHandling/Task.cs" Line="14" Column="10" />
+      <File FileName="GroundHandling/Team.cs" Line="11" Column="16" />
+      <File FileName="GroundHandling/Day.cs" Line="11" Column="12" />
+      <File FileName="GroundHandling/Skill.cs" Line="11" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

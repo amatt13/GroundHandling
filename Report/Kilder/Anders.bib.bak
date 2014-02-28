@@ -1,0 +1,115 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: Cp1252
+
+@ELECTRONIC{cate_SASIndri,
+  author = {SAS staff},
+  title = {Rejser i Danmark},
+  language = {Danish},
+  organization = {SAS},
+  url = {http://www.sas.dk/alt-om-rejsen/ombord/indenrigs/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{cate_SASscanda,
+  author = {SAS staff},
+  title = {Rejser i Skandinavien og Europa},
+  language = {danish},
+  organization = {SAS},
+  url = {http://www.sas.dk/alt-om-rejsen/ombord/rejser-i-skandinavien/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{cate_SASGourmet,
+  author = {Stand By staff},
+  month = {6},
+  year = {2011},
+  title = {Gate Gourmet forlænger med SAS},
+  language = {Danish},
+  organization = {Stand By},
+  url = {http://www.standby.dk/gate-gourmet-forl-nger-med-sas/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{AvoidP_TenStep,
+  author = {TenStep staff},
+  title = {Contact TenStep},
+  language = {English},
+  organization = {TenStep},
+  url = {http://www.tenstep.com/open/miscpages/90.11ContactTenStep.html},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.26}
+}
+
+@ELECTRONIC{cate_pilotfood2,
+  author = {Chris Cooke},
+  month = {June},
+  year = {2011},
+  title = {Napping Pilots: A Good Thing},
+  language = {English},
+  organization = {Executive Travel},
+  url = {http://www.executivetravelmagazine.com/articles/napping-pilots-a-good-thing},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{cate_pilotfood1,
+  author = {Jesse},
+  month = {JANUARY},
+  year = {2012},
+  title = {THE DIETS OF PILOTS},
+  language = {English},
+  organization = {AIRTRANSPARENCY},
+  url = {http://www.airtransparency.com/airtransparency/2012/1/19/the-diets-of-pilots.html},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25}
+}
+
+@ELECTRONIC{Algo_lobe,
+  author = {Marlyn E. Kyle and Mithra M. K. V. Sankrithi},
+  month = {November},
+  year = {2000},
+  title = {Aircraft lower lobe sleeping compartment},
+  language = {English and Danish},
+  organization = {The Boeing Company},
+  note = {US6152400 A},
+  url = {https://www.google.com/patents/US6152400},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.24}
+}
+
+@ELECTRONIC{AvoidP_PoorP,
+  author = {Tom Mochal},
+  month = {March},
+  year = {2003},
+  title = {Poor planning is project management mistake number one},
+  language = {English},
+  organization = {techrepublic},
+  url = {http://www.techrepublic.com/article/poor-planning-is-project-management-mistake-number-one/},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.26}
+}
+
+@BOOK{cate_BookSection,
+  title = {The SAGE Handbook of Hospitality Managemen},
+  publisher = {SAGE Publications Ltd},
+  year = {2008},
+  editor = {Roy C Wood and Bob Brotherton},
+  author = {Roy C Wood and Bob Brotherton},
+  pages = {576},
+  note = {Faculty of Business, Economics and Law},
+  abstract = {At last, a comprehensive, systematically organized Handbook which
+	gives a reliable and critical guide to all aspects of one of the
+	world's leading industries: the hospitality industry. The book focuses
+	on key aspects of the hospitality management curriculum, research
+	and practice bringing together leading scholars throughout the world.
+	Each essay examines a theme or functional aspect of hospitality management
+	and offers a critical overview of the principle ideas and issues
+	that have contributed, and continue to contribute, within i},
+  owner = {AndersBærbar},
+  timestamp = {2014.02.25},
+  url = {http://books.google.dk/books?id=MF6x6G_i9BkC&pg=PA501&lpg=PA501&dq=Flight+Catering+In+Handbook+of+Hospitality+Research&source=bl&ots=id0-lmMyqj&sig=vgYIdZ3fgT_YLOdZE6lSJbmwM9M&hl=da&sa=X&ei=kmYMU4vGKYrK0QXX2YCQDQ&ved=0CC4Q6AEwAA#v=onepage&q&f=false}
+}
+
