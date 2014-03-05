@@ -1,0 +1,11 @@
+OVERVEJELSER
+skills som bool eller int
+- bool er nemmere
+- int kan give prioritering af teams/medarbejdere, men skal beregnes korrekt
+Dynamiske/statiske teams
+- Dynamisk kan være mere effektivt, men potentielt stressende 
+- Statisk kan være standard nu, og derfor ikke ideelt at skifte fra
+Performance review
+- Giv supervisors mulighed for at trække en masse tal på teams/medarbejdere, så de kan se hvem der er bedre/ringere
+SPØRGSMÅL
+Hvordan er teams opbygget?
