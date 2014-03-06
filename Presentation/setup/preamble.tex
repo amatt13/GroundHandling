@@ -1,0 +1,91 @@
+
+\documentclass[10pt, t]{beamer}
+\usetheme[left]{AAUsidebar}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  numbers=left,
+  numberstyle=\footnotesize,
+  stepnumber=1,
+  numbersep=5pt,
+  showspaces=false,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle=\ttfamily,
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  captionpos=b  
+  }
+
+\lstdefinestyle{nonumbers}
+{
+    numbers=none,
+}
+
+\lstdefinestyle{small}
+{
+    numbers=none,
+    basicstyle={\fontsize{10pt}{10pt}\ttfamily}
+}
+
+\newcommand{\chref}[2]{
+    \href{#1}{{\usebeamercolor[bg]{AAUsidebar}#2}}
+}
+
+\title[Ground Handling]{P2: Ground Handling}
+\subtitle{A Software Analysis and -Implementation}
+\date{11/03 2014}
+\author[SW2A418] 
+{
+    Anders Lykke Matthiasen
+    \href{mailto:amatt13@student.aau.dk}{\textit{<amatt13@student.aau.dk>}}\linebreak
+		Christian Heider Nielsen
+    \href{mailto:chrini13@student.aau.dk}{\textit{<chrini13@student.aau.dk>}}\linebreak
+		Christoffer Carlé Christensen
+    \href{mailto:ccch13@student.aau.dk}{\textit{<ccch13@student.aau.dk>}}\linebreak
+		Jens Hegner Stærmose
+    \href{mailto:jstarm@student.aau.dk}{\textit{<jstarm@student.aau.dk>}}\linebreak
+		Josias Overgaard Laugesen
+    \href{mailto:jlauge13@student.aau.dk}{\textit{<jlauge13@student.aau.dk>}}\linebreak
+    Kasper Fuglsang Christensen
+    \href{mailto:kfch13@student.aau.dk}{\textit{<kfch13@student.aau.dk>}}\linebreak
+    Kasper Østergaard Helsted
+    \href{mailto:khelst13@student.aau.dk}{\textit{<khelst13@student.aau.dk>}}
+}
+
+\institute[
+    Department of Computer Science\linebreak
+    Selma Lagerlöfs Vej 300\linebreak
+    DK-9220 Aalborg Ø\linebreak
+    http://cs.aau.dk
+]
+{
+    Department of Computer Science\linebreak
+    Selma Lagerlöfs Vej 300\linebreak
+    DK-9220 Aalborg Ø\linebreak
+    http://cs.aau.dk
+    
+}
+
+\pgfdeclareimage[height=1.5cm]{titlepagelogo}{AAUgraphics/aau_logo_new}
+\titlegraphic{
+    \pgfuseimage{titlepagelogo}
+}
