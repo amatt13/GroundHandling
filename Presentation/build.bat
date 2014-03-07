@@ -1,4 +1,4 @@
 @ECHO ON
-pdflatex main.tex
+pdflatex master.tex
 call clean_folders.bat
 PAUSE
