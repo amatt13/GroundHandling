@@ -1,7 +1,5 @@
 \item Purpose of the trip
-	-The purpose of the trip was to get answers to some of our more difficult questions like "Does a given ground handling worker do more than one job, or are  
-they specialized?" which turned out to be different from airport to airport. We  
-also wanted to talk to a specialist in order to get a professional point of view  
+	-The purpose of the trip was to get answers to some of our more difficult questions like "Does a given ground handling worker do more than one job, or are they specialized?" which turned out to be different from airport to airport. We also wanted to talk to a specialist in order to get a professional point of view  
 on the subject.
 
 \item Kim Bermann
@@ -11,7 +9,7 @@ answered all of our questions and gave us an presentation of the Airports
 development and his own career. 
 
 \item Literature and other information sources
-	-He also referred us to some literature such as a "Ground Handling  
+	-He also referred us to some literature such as the so called "Ground Handling  
 Bible" in which information on all the different services can be found. This  
 book will be incorporated in our project.
 
@@ -33,3 +31,6 @@ opportunity to actually see it.
 	-We also in which order the different tasks was done in. As soon as the  
 plane stood still it was hooked up with a cable that started to charge it, and  
 soon after the passenger ramp arrived and so on.
+
+
+
