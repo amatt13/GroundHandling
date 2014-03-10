@@ -22,4 +22,9 @@ del /s *.mine
 del /s *.r92
 del /s *.r93
 del /s *.xml
+del /s *.nav
+del /s *.snm
+del /s *.snm
+del /s links
+del /s Makefile
 del /s main-blx.*
