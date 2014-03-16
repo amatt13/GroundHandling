@@ -55,9 +55,13 @@
   \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
-\newcommand*{\blankpage}{%
+\newcommand*{\blankpageOne}{%
 \vspace*{\fill}
-\centering \textit{This page intentionally left (almost) blank.}
+\centering \textit{This page intentionally left (almost) blank.\linebreak\linebreak\linebreak For the sake of not being totally useless, here is a joke to lighten the mood.\\There are only two hard problems in computer science:\\Cache invalidation, naming and off-by-one errors.}
+\vspace{\fill}}
+\newcommand*{\blankpageTwo}{%
+\vspace*{\fill}
+\centering \textit{This page intentionally left (almost) blank.\linebreak\linebreak\linebreak For the sake of not being totally useless, here is a joke to lighten the mood.\\Q: How many programmers does it take to change a lightbulb?\\A: None, that's a hardware problem.}
 \vspace{\fill}}
 
 \pagestyle{chp}
@@ -87,13 +91,13 @@
 
 \begin{document}
     \maketitle
-    \afterpage{\blankpage}
+    \afterpage{\blankpageOne}
 		\thispagestyle{empty}
     \pagenumbering{gobble}
     \clearpage
     %Titlepage 
     \input{Titlepage/titelblad}
-    \afterpage{\blankpage}
+    \afterpage{\blankpageTwo}
 		\thispagestyle{empty}
     \pagenumbering{gobble}
     \clearpage
