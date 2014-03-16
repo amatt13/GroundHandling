@@ -50,6 +50,15 @@
   \rhead{\rightmark}%\colorbox{black}{\color{white}{\rightmark}}}
   \cfoot{\thepage\ of \pageref{LastPage}}
 }
+\fancypagestyle{plain}{
+	%\fancyhf{}
+  \cfoot{\thepage\ of \pageref{LastPage}}
+}
+
+\newcommand*{\blankpage}{%
+\vspace*{\fill}
+\centering \textit{This page intentionally left blank.}
+\vspace{\fill}}
 
 \pagestyle{chp}
 
@@ -59,6 +68,7 @@
         Kasper Ø. Helsted, Jens H. Stærmose, Christoffer C. Christensen, Christian H. Nielsen\\
         Kasper F. Christensen, Anders L. Matthiassen \& Josias Laugesen\\
 }
+
 \date{21 - 05 - 2014}
 
 \definecolor{codecomment}{HTML}{383838}
@@ -77,13 +87,13 @@
 
 \begin{document}
     \maketitle
-    \afterpage{\null\newpage}
+    \afterpage{\blankpage}
 		\thispagestyle{empty}
     \pagenumbering{gobble}
     \clearpage
     %Titlepage 
     \input{Titlepage/titelblad}
-    \afterpage{\null\newpage}
+    \afterpage{\blankpage}
 		\thispagestyle{empty}
     \pagenumbering{gobble}
     \clearpage
@@ -99,7 +109,6 @@
     \input{Indledning/indledning}
 		\include{Analyse/GHgeneral}
     \part{Problem Analysis}
-    %\chapter{Problem Analysis}
 		\include{Analyse/Stakeholders/Organisations/GHCompanies}
 		\include{Analyse/Stakeholders/Management/Supervisors}
 		\include{Analyse/Stakeholders/OperationalPersonnel/Freight}
