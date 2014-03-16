@@ -23,6 +23,7 @@
 \usepackage{xfrac}
 \usepackage{listings} % Insert code
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{lastpage}
 
 
 \usepackage[backend=bibtex]{biblatex}
@@ -30,6 +31,8 @@
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} % Page margin
 \usepackage{tabularx} % Table
 \usepackage{marginnote}
+
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
 
 \titleformat{\chapter}{\normalfont\huge\bfseries}{ \thechapter.}{20pt}{\huge}
 \setcounter{section}{0}
@@ -43,8 +46,9 @@
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \fancypagestyle{chp}{
   \fancyhf{}
+	\lhead{\MakeUppercase{\leftmark}}
   \rhead{\rightmark}%\colorbox{black}{\color{white}{\rightmark}}}
-  \cfoot{\thepage}
+  \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
 \pagestyle{chp}
@@ -74,18 +78,21 @@
 \begin{document}
     \maketitle
     \afterpage{\null\newpage}
+		\thispagestyle{empty}
     \pagenumbering{gobble}
-    \clearpage  
+    \clearpage
     %Titlepage 
     \input{Titlepage/titelblad}
     \afterpage{\null\newpage}
+		\thispagestyle{empty}
     \pagenumbering{gobble}
-    \clearpage  
+    \clearpage
     \pagenumbering{roman}
     \input{Indledning/Forord}
+		\thispagestyle{empty}
     %\renewcommand*\contentsname{Indholdsfortegnelse}
     \tableofcontents
-    \thispagestyle{empty}
+		\thispagestyle{empty}
     \pagenumbering{arabic}
     \clearpage
     \setcounter{page}{1}
@@ -93,13 +100,13 @@
 		\include{Analyse/GHgeneral}
     \part{Problem Analysis}
     %\chapter{Problem Analysis}
-		\include{Analyse/Stakeholders/GHCompanies}
-		\include{Analyse/Stakeholders/Freight}
-		\include{Analyse/Stakeholders/Mechanics}
-		\include{Analyse/Stakeholders/CabinCrew}
-		\include{Analyse/Stakeholders/Supervisors}
-		\include{Analyse/Stakeholders/Cleaning}
-		\include{Analyse/Stakeholders/Catering}
+		\include{Analyse/Stakeholders/Organisations/GHCompanies}
+		\include{Analyse/Stakeholders/Management/Supervisors}
+		\include{Analyse/Stakeholders/OperationalPersonnel/Freight}
+		\include{Analyse/Stakeholders/OperationalPersonnel/Mechanics}
+		\include{Analyse/Stakeholders/OperationalPersonnel/CabinCrew}
+		\include{Analyse/Stakeholders/OperationalPersonnel/Cleaning}
+		\include{Analyse/Stakeholders/OperationalPersonnel/Catering}
 		\include{Analyse/Stakeholders/Passengers}
 
 		
