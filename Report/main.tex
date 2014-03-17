@@ -55,9 +55,13 @@
   \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
-\newcommand*{\blankpage}{%
+\newcommand*{\blankpageOne}{%
 \vspace*{\fill}
-\centering \textit{This page intentionally left blank.}
+\centering \textit{This page intentionally left (almost) blank.\linebreak\linebreak\linebreak For the sake of not being totally useless, here is a joke to lighten the mood.\\There are only two hard problems in computer science:\\Cache invalidation, naming and off-by-one errors.}
+\vspace{\fill}}
+\newcommand*{\blankpageTwo}{%
+\vspace*{\fill}
+\centering \textit{This page intentionally left (almost) blank.\linebreak\linebreak\linebreak For the sake of not being totally useless, here is a joke to lighten the mood.\\Q: How many programmers does it take to change a lightbulb?\\A: None, that's a hardware problem.}
 \vspace{\fill}}
 
 \pagestyle{chp}
@@ -65,8 +69,9 @@
 \title{Ground Handling}
 \author{
     \includegraphics[width=14cm]{Grafik/index.jpg} \\
-        Kasper Ø. Helsted, Jens H. Stærmose, Christoffer C. Christensen, Christian H. Nielsen\\
-        Kasper F. Christensen, Anders L. Matthiassen \& Josias Laugesen\\
+        Kasper Østergaard Helsted, Jens Hegner Stærmose, Christoffer Carlé Christensen\\
+        Christian Heider Nielsen, Kasper Fuglsang Christensen\\
+        Anders Lykke Matthiassen \& Josias Laugesen\\
 }
 
 \date{21 - 05 - 2014}
@@ -87,13 +92,13 @@
 
 \begin{document}
     \maketitle
-    \afterpage{\blankpage}
+    \afterpage{\blankpageOne}
 		\thispagestyle{empty}
     \pagenumbering{gobble}
     \clearpage
     %Titlepage 
     \input{Titlepage/titelblad}
-    \afterpage{\blankpage}
+    \afterpage{\blankpageTwo}
 		\thispagestyle{empty}
     \pagenumbering{gobble}
     \clearpage
@@ -122,7 +127,7 @@
 		\include{Analyse/Airports/PricesAndServices}
   	    \include{Analyse/Airports/EmergencyPlanning}
 		\include{Analyse/Airports/Airtraffic}
-		\include{Analyse/Airports/Airtraffic/TeamDivision}
+		\include{Analyse/Airports/TeamDivision}
 		
 		\include{Analyse/Planning/AvoidPlanning}
 		\include{Analyse/Planning/BadPlanCons}
@@ -145,7 +150,8 @@
         \end{figure}
 
     \part{Product Development}
-    
+        \include{Product/}
+
     \printbibliography
 
 \end{document}
