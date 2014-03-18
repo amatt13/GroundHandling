@@ -43,6 +43,10 @@
     \setlength{\headheight}{15pt}
 }
 
+%\titleformat{\chapter}[display]   
+%{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+\titlespacing*{\chapter}{20pt}{-20pt}{10pt}
+
 \renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
 \fancypagestyle{chp}{
   \fancyhf{}
@@ -111,22 +115,25 @@
     \pagenumbering{arabic}
     \clearpage
     \setcounter{page}{1}
-    \input{Indledning/indledning}
-		\include{Analyse/GHgeneral}
+
 		%descripiton of tasks mangeler
 		%the relationship between stakeholders
     \part{Problem Analysis}
+		\input{Indledning/indledning}
+		\include{Analyse/GHProcess/GHgeneral}
+		\include{Analyse/GHProcess/TaskDescription/Freight}
+		\include{Analyse/GHProcess/TaskDescription/Mechanics}
+		\include{Analyse/GHProcess/TaskDescription/CabinCrew}
+		\include{Analyse/GHProcess/TaskDescription/Cleaning}
+		\include{Analyse/GHProcess/TaskDescription/Catering}
+		
 		\include{Analyse/Stakeholders/Organisations/GHCompanies}
 		\include{Analyse/Stakeholders/Organisations/Airports/PricesAndServices}
 		\include{Analyse/Stakeholders/Organisations/Airports/EmergencyPlanning}
 		\include{Analyse/Stakeholders/Organisations/Airports/Airtraffic}
 		\include{Analyse/Stakeholders/Organisations/Airports/TeamDivision}
 		\include{Analyse/Stakeholders/Management/Supervisors}
-		\include{Analyse/Stakeholders/OperationalPersonnel/Freight}
-		\include{Analyse/Stakeholders/OperationalPersonnel/Mechanics}
-		\include{Analyse/Stakeholders/OperationalPersonnel/CabinCrew}
-		\include{Analyse/Stakeholders/OperationalPersonnel/Cleaning}
-		\include{Analyse/Stakeholders/OperationalPersonnel/Catering}
+
 		\include{Analyse/Stakeholders/Passengers}
 		
 		%hvor skal vi lægge de følgende 4??
